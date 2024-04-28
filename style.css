@@ -1,0 +1,74 @@
+.dia {
+    font-weight: bold ;
+}
+.dialunes {
+    font-weight: bold ;
+    color:#1883F5;
+    font-size: 25px;
+}
+
+.horariolunes {
+        font-style: italic;
+        color:#1883F5;
+}
+.diamartes {
+    font-weight: bold ;
+    color:#18B9F5;
+    font-size: 25px;
+}
+.horariomartes {
+    font-style: italic;
+    color:#18B9F5;
+}
+.diamiercoles {
+    font-weight: bold ;
+    color:#F88AE2;
+    font-size: 25px;
+}
+.horariomiercoles {
+    font-style: italic;
+    color:#F88AE2;
+}
+.diajueves {
+    font-weight: bold ;
+    color:#A71591;
+    font-size: 25px;
+}
+.horariojueves {
+    font-style: italic;
+    color:#A71591; 
+}
+.diaviernes {
+    font-weight: bold ;
+    color:#BBD800;
+    font-size: 25px; 
+}
+.horarioviernes {
+    font-style: italic;
+    color:#BBD800; 
+}
+.diasabado {
+    font-weight: bold ;
+    color:#DBFE00; 
+    font-size: 25px;
+}
+.horariosabado {
+    font-style: italic;
+    color:#DBFE00; 
+}
+.fondoheader{
+    background-color: #FCDAF5  ;
+    width: 100%;
+    height: fit-content;
+}
+.fondofooter{
+    background-color: #CBFCFD;
+    width: 100%;
+    height: 40%;
+}
+
+.bordeformulario{
+    border-width: 1px;
+    border-color: #000B0C ;
+    border-style: solid;
+}
