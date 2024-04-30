@@ -56,13 +56,29 @@
     font-style: italic;
     color:#DBFE00; 
 }
+.dias{
+       font-size: 20px;
+       font-weight: bold;       
+}
+.mañana{
+    font-size: 20px;
+    font-weight: bold; 
+}
+.tarde{
+    font-size: 20px;
+    font-weight: bold; 
+}
+.horarios{
+    font-size: 20px;
+    font-weight: bold; 
+}
 .fondoheader{
-    background-color: #FCDAF5  ;
+    background-color: #EAEAEA    ;
     width: 100%;
     height: fit-content;
 }
 .fondofooter{
-    background-color: #CBFCFD;
+    background-color: #E0F7FF ;
     width: 100%;
     height: 40%;
 }
@@ -71,4 +87,33 @@
     border-width: 1px;
     border-color: #000B0C ;
     border-style: solid;
+}
+
+.contenedor{
+    list-style: none;
+    display: flex;
+    flex-direction: row;  
+
+}
+.elemento1{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+}
+.elemento2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  
+}
+.elemento3{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+   
+}
+.elemento4{
+    display: grid;
+    grid-template-columns: 2 fr 1fr;  
+}
+.box{
+    float: left;
 }
