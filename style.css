@@ -1,3 +1,76 @@
+/*header*/
+
+.fondoheader{
+    background-image: url(fondo.jpg);
+    width: 100%;
+    height: fit-content;
+}
+.logolocal{
+    margin: auto;
+  position: top;
+
+    
+}
+
+.titulodos{
+    font-weight: bold ;
+    color:#797979;
+    font-size: 20px;
+    font-family:"Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+}
+.contenedor{
+    list-style: none;
+    display: flex;
+    flex-direction: row;  
+
+}
+.elemento1{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+}
+.elemento2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  
+}
+.elemento3{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+   
+}
+.elemento4{
+    display: grid;
+    grid-template-columns: 2 fr 1fr;  
+}
+.box{
+    float: left;
+}
+
+
+/*main*/
+.fotos{
+    display: flex;
+  width: 250px;
+  height: 220px;
+  margin: 0 auto;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+
+/*footer*/
+
+.fondofooter{
+    background-color: #E0F7FF ;
+    width: 100%;
+    height: 40%;
+}
+
+
+/*horarios*/
+
 .dia {
     font-weight: bold ;
 }
@@ -72,16 +145,9 @@
     font-size: 20px;
     font-weight: bold; 
 }
-.fondoheader{
-    background-color: #EAEAEA    ;
-    width: 100%;
-    height: fit-content;
-}
-.fondofooter{
-    background-color: #E0F7FF ;
-    width: 100%;
-    height: 40%;
-}
+
+
+/*contacto*/
 
 .bordeformulario{
     border-width: 1px;
@@ -89,31 +155,3 @@
     border-style: solid;
 }
 
-.contenedor{
-    list-style: none;
-    display: flex;
-    flex-direction: row;  
-
-}
-.elemento1{
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    
-}
-.elemento2{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  
-}
-.elemento3{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-   
-}
-.elemento4{
-    display: grid;
-    grid-template-columns: 2 fr 1fr;  
-}
-.box{
-    float: left;
-}
