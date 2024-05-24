@@ -1,9 +1,14 @@
 /*header*/
 
-.fondoheader{
-    background-image: url(fondo.jpg);
-    width: 100%;
-    height: fit-content;
+.header-nav{
+    background-image: url("./fondo.jpg");    
+}
+
+.header-title-and-logo{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
 }
 .logolocal{
     margin: auto;

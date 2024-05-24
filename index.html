@@ -13,28 +13,38 @@
 </head>
 
 <body>
-    <header width="300" height="200">
-        <img src="fondo.jpg" alt="imagenfondo">
-        <img src="Color Arcoiris logo.png" width="400" height="300" alt="logo del local">
-        <h2> Ropa para bebés y niños </h2>
+    <header class="header-nav">
+        <div class="header-title-and-logo">
+            <img src="Color Arcoiris logo.png" width="400" height="300" alt="logo del local">
+            <h2 class="titulodos">Ropa para bebés y niños</h2>
+        </div>
 
-        <nav>
-            <ul>
-                <li> <a href="./inicio.html"> Inicio</a></li>
-                <li> <a href="./ropadebebes.html" target="_blank"> Ropa de bebés</a></li>
-                <li> <a href="./ropadeniños.html" target="_blank"> Ropa de niños</a></li>
-                <li> <a href="./horarios.html" target="_blank">Horarios de Atencion</a></li>
-                <li> <a href="./contacto.html" target="_blank"> Contacto</a></li>
-
-
-
-            </ul>
-
-
-
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./ropadebebes.html">Ropa de bebés</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ropadeniños.html">Ropa de niños</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./horarios.html">Horarios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-
-
     </header>
     <main>
         <img src="beba.jpg" width="250" height="220" alt="fotodebeba">
