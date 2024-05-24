@@ -71,12 +71,11 @@
 
 /*footer*/
 
-.fondofooter{
+.my-footer{
     background-image: url(fondo.jpg);
-    width: 100%;
-    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
 
 /*horarios*/
 
