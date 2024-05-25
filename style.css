@@ -59,6 +59,9 @@
 
 
 /*main*/
+.my-main{
+    background-image: url(./fondomain.jpg);
+}
 .fotos{
     display: flex;
   width: 250px;
