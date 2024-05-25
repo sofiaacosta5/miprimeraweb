@@ -1,13 +1,7 @@
-let nombre = "nombre";
-let apellido = "apellido";
-let resultado = nombre + apellido;
-console.log(resultado);
-let numberone = 5;
-let numbertwo = 3;
-let resultsuma = numberone + numbertwo;
-console.log("suma:",resultsuma);
-let numberthree = resultsuma + 2;
-let resultsumados = resultsuma + 2;
-console.log("suma:",resultsumados);
-
+// mostrar un cartel que pida la edad del usuario
+let edad = prompt("ingrese su edad");
+// avisar que entra bajo su propia responbilidad si es menor de edad
+if (edad < 18) {
+  alert("Entra bajo su propia responsabilidad.");
+}
 
