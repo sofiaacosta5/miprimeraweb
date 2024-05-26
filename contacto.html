@@ -48,70 +48,68 @@
     </header>
 
     <main class="my-main">
-        <form class="bordeformulario">
-
+        <form>
             <div class="mb-3">
-                Nombre:<input type="text" name="Nombre">
-                Apellido:<input type="text" name="Apellido"><br>
-                <label for="exampleFormControlInput1" class="form-label">Correo de contacto:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
+                <label for="nombreInput" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombreInput" placeholder="Nombre">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label><br>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                <input type="submit" value="Enviar">
+                <label for="apellidoInput" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="apellidoInput" placeholder="Apellido">
             </div>
-
-
-
-
-
-
+            <div class="mb-3">
+                <label for="emailInput" class="form-label">Mail</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="nombre@ejemplo.com">
+            </div>
+            <div class="mb-3">
+                <label for="mensajeInput" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensajeInput" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <button type="button" class="btn btn-outline-primary">Enviar</button>
+            </div>
         </form>
     </main>
+    
+    <!-- Footer -->
+    <div class="my-footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-5 d-flex align-items-center">
+                <span class="mb-3 mb-md-0 text-muted">
+                    Página creada por Sofía Acosta<br>
+                    Contacto: acostasofia5@gmail.com
+                </span>
+            </div>
 
-
-
-
-   <!-- Footer -->
-   <div class="my-footer">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-md-5 d-flex align-items-center">
-            <span class="mb-3 mb-md-0 text-muted">
-                Página creada por Sofía Acosta<br>
-                Contacto: acostasofia5@gmail.com
-            </span>
-        </div>
-
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3">
-                <a class="text-muted" href="https://www.instagram.com/color.arcoiris.sn/" target="_blank">
-                    <img src="instagram.png" width="20" height="20" alt="logoinstagram">
-                    <p>
-                        <b>color.arcoiris.sn</b>
-                    </p>
-                </a>
-            </li>
-            <li class="ms-3">
-                <a class="text-muted"
-                    href="https://wa.me/54336154239471?text=Me%20comunico%20desde%20la%20pagina%20web%20"
-                    target="_blank">
-                    <img src="wp.png" width="20" height="20" alt="logodewhatsapp">
-                    <p>
-                        <b>3364239471</b>
-                    </p>
-                </a>
-            </li>
-            <li class="ms-3">
-                <a class="text-muted"
-                    href="https://www.google.com.ar/maps/place/Color+Arcoiris+Baby+%26+Kids/@-33.3808468,-60.1811214,3a,75y,141.48h,97.76t/data=!3m7!1e1!3m5!1sI_A5W565XAd3Zbr3HbgECw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DI_A5W565XAd3Zbr3HbgECw%26cb_client%3Dsearch.gws-prod.gps%26w%3D86%26h%3D86%26yaw%3D286.73706%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192!4m7!3m6!1s0x95b75f4717d567d7:0x507270e3970bef30!8m2!3d-33.3807981!4d-60.1812091!10e5!16s%2Fg%2F11v4hzb0x9?entry=ttu"
-                    target="_blank">
-                    <p>
-                        20 Oeste 460<br>
-                        Barrio Ayres Del Sur
-                    </p>
-                </a>
-            </li>
-        </ul>
-    </footer>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a class="text-muted" href="https://www.instagram.com/color.arcoiris.sn/" target="_blank">
+                        <img src="instagram.png" width="20" height="20" alt="logoinstagram">
+                        <p>
+                            <b>color.arcoiris.sn</b>
+                        </p>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-muted"
+                        href="https://wa.me/54336154239471?text=Me%20comunico%20desde%20la%20pagina%20web%20"
+                        target="_blank">
+                        <img src="wp.png" width="20" height="20" alt="logodewhatsapp">
+                        <p>
+                            <b>3364239471</b>
+                        </p>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-muted"
+                        href="https://www.google.com.ar/maps/place/Color+Arcoiris+Baby+%26+Kids/@-33.3808468,-60.1811214,3a,75y,141.48h,97.76t/data=!3m7!1e1!3m5!1sI_A5W565XAd3Zbr3HbgECw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DI_A5W565XAd3Zbr3HbgECw%26cb_client%3Dsearch.gws-prod.gps%26w%3D86%26h%3D86%26yaw%3D286.73706%26pitch%3D0%26thumbfov%3D100!7i16384!8i8192!4m7!3m6!1s0x95b75f4717d567d7:0x507270e3970bef30!8m2!3d-33.3807981!4d-60.1812091!10e5!16s%2Fg%2F11v4hzb0x9?entry=ttu"
+                        target="_blank">
+                        <p>
+                            20 Oeste 460<br>
+                            Barrio Ayres Del Sur
+                        </p>
+                    </a>
+                </li>
+            </ul>
+        </footer>
 </body>
